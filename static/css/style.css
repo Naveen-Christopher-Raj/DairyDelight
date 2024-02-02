@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&family=Rubik+Moonrocks&display=swap');
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.product-image{
+    max-width: auto;
+    max-height: 300px !important;
+    
+}
+
+.old-price{
+    font-weight: bold;
+    color: red;
+}
+
+.new-price{
+    background-color: green;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pic-box{
+    position: relative;
+}
+
+.hot{
+    background-color: orangered;
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 10;
+}
